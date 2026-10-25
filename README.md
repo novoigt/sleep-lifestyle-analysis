@@ -1,8 +1,16 @@
 # Sleep & Lifestyle Analysis
 
-End-to-End-Data-Science-Projekt zur Analyse von Schlafqualität, Stresslevel und Lebensstilfaktoren. Das Projekt umfasst explorative Datenanalyse, Feature Engineering, Clustering, prädiktive Modellierung, Hypothesenprüfung sowie ein interaktives Dash-Dashboard.
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellowgreen)
+![Plotly Dash](https://img.shields.io/badge/Plotly-Dash-3f4f75)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Projektueberblick
+
+End-to-End-Data-Science-Projekt zur Analyse von Schlafqualität, Stresslevel und Lebensstilfaktoren. Das Projekt umfasst explorative Datenanalyse, Feature Engineering, Clustering, prädiktive Modellierung, Hypothesenprüfung sowie ein interaktives Dashboard.
+
+
+## Projektüberblick
 
 Das Projekt untersucht, wie Lebensstil-, Verhaltens- und physiologische Faktoren mit Schlafqualität und Stressniveau zusammenhängen. Dafür wurde ein vollständiger analytischer Workflow von der Rohdatenaufbereitung bis zur interaktiven Ergebnisdarstellung umgesetzt.
 
@@ -42,7 +50,7 @@ Der bereinigte Datensatz enthält:
 - **0 fehlende Werte**
 - **0 Duplikate**
 
-Enthalten sind unter anderem Alter, Geschlecht, Familienstand, Rauchstatus, Alkoholkonsum, Zuckeraufnahme, körperliche Aktivität, tägliche Schritte, Stresslevel, Schlafdauer, Schlafqualität, Herzfrequenz, BMI-Kategorie sowie Health-Risk-Indikatoren.
+Enthalten sind unter anderem Alter, Geschlecht, Familienstand, Raucherstatus, Alkoholkonsum, Zuckeraufnahme, körperliche Aktivität, tägliche Schritte, Stresslevel, Schlafdauer, Schlafqualität, Herzfrequenz, BMI-Kategorie sowie Health-Risk-Indikatoren.
 
 ## Projektstruktur
 
@@ -156,7 +164,7 @@ Die Analyse folgt einem reproduzierbaren Data-Science-Workflow:
 | Hohen Stress klassifizieren | Bestes Klassifikationsmodell | F1-Score | `[WERT]` |
 | Hohen Stress klassifizieren | Bestes Klassifikationsmodell | ROC-AUC | `[WERT]` |
 
-## Hypothesenpruefung
+## Hypothesenprüfung
 
 Die in der EDA formulierten Hypothesen wurden im dritten Notebook anhand der Modell- und Clusterergebnisse geprüft. Untersucht wurden insbesondere:
 
