@@ -1,0 +1,7 @@
+metric,value
+train_r2_lr,0.5027979108044459
+test_r2_lr,0.4272849542841509
+train_r2_rf,0.9284957588843163
+test_r2_rf,0.39495843373607453
+train_auc_rf,1.0
+test_auc_rf,1.0
