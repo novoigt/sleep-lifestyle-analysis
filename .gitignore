@@ -19,9 +19,16 @@ Thumbs.db
 .idea/
 *.swp
 
-# Daten (nur falls du sie NICHT hochladen willst)
+# Daten
 # data/*.csv
 # !data/.gitkeep
+
+# Temporary files
+tmp/
+
+# Local type stubs
+typings/
+
 
 # Sonstiges
 *.log
