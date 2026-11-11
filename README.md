@@ -18,9 +18,9 @@ Die Analyse ist in drei aufeinander aufbauenden Jupyter Notebooks strukturiert:
 
 | Notebook | Fokus |
 |---|---|
-| [`01-EDA-Hypothesenentwicklung.ipynb`](notebooks/01-EDA-Hypothesenentwicklung.ipynb) | Datenverständnis, Datenqualität, EDA und Hypothesenentwicklung |
-| [`02-Feature-Engineering-Clustering-Modeling-MapReduce.ipynb`](notebooks/02-Feature-Engineering-Clustering-Modeling-MapReduce.ipynb) | Feature Engineering, Clustering, Regression und Klassifikation |
-| [`03-Evaluation-Hypothesenprüfung-Dash-Deployment.ipynb`](notebooks/03-Evaluation-Hypothesenprüfung-Dash-Deployment.ipynb) | Modellevaluation, Feature Importance, Hypothesenprüfung und Dash-Deployment |
+| [`01-EDA-Hypothesenentwicklung.ipynb`](/01-EDA-Hypothesenentwicklung.ipynb) | Datenverständnis, Datenqualität, EDA und Hypothesenentwicklung |
+| [`02-Feature-Engineering-Clustering-Modeling-MapReduce.ipynb`](02-Feature-Engineering-Clustering-Modeling-MapReduce.ipynb) | Feature Engineering, Clustering, Regression und Klassifikation |
+| [`03-Evaluation-Hypothesenprüfung-Dash-Deployment.ipynb`](03-Evaluation-Hypothesenprüfung-Dash-Deployment.ipynb) | Modellevaluation, Feature Importance, Hypothesenprüfung und Dash-Deployment |
 
 ## Zielstellung
 
@@ -70,10 +70,9 @@ sleep-lifestyle-analysis/
 │   ├── cv_scores_regression.csv
 │   ├── cv_scores_classification.csv
 │   └── feature_importance_rf.csv
-├── notebooks/
-│   ├── 01-EDA-Hypothesenentwicklung.ipynb
-│   ├── 02-Feature-Engineering-Clustering-Modeling-MapReduce.ipynb
-│   └── 03-Evaluation-Hypothesenprüfung-Dash-Deployment.ipynb
+├── 01-EDA-Hypothesenentwicklung.ipynb
+├── 02-Feature-Engineering-Clustering-Modeling-MapReduce.ipynb
+├── 03-Evaluation-Hypothesenprüfung-Dash-Deployment.ipynb
 └── outputs/
     └── figures/
 ```
